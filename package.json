@@ -1,0 +1,42 @@
+{
+	"name": "wallabyjs-issue-project",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"test": "vue-cli-service test:unit",
+		"dev": "npm run serve"
+	},
+	"dependencies": {
+		"@babel/core": "^7.4.3",
+		"@babel/runtime": "^7.4.3",
+		"@quasar/extras": "^1.1.1",
+		"quasar": "^1.0.0-beta.16",
+		"vue": "^2.6.2",
+		"vue-template-compiler": "^2.6.2",
+		"vuex": "^3.1.0",
+		"vuex-router-sync": "^5.0.0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.4.0",
+		"@vue/cli-plugin-pwa": "^3.4.0",
+		"@vue/cli-plugin-unit-jest": "^3.4.0",
+		"@vue/cli-service": "^3.5.2",
+		"@vue/test-utils": "^1.0.0-beta.29",
+		"babel-core": "7.0.0-bridge.0",
+		"babel-eslint": "^10.0.1",
+		"babel-jest": "^23.6.0",
+		"babel-loader": "^8.0.5",
+		"babel-plugin-transform-imports": "^1.5.1",
+		"babel-preset-vue": "^2.0.2",
+		"jest": "^24.7.1",
+		"jest-vue-preprocessor": "^1.5.0",
+		"vue-cli-plugin-quasar": "^1.0.0-beta.1",
+		"vue-jest": "^3.0.4",
+		"wallaby-vue-compiler": "^1.0.3"
+	},
+	"engines": {
+		"node": ">=8.4.0",
+		"npm": ">=5.0.0"
+	},
+	"license": "MIT",
+	"main": "./src/main.js"
+}
