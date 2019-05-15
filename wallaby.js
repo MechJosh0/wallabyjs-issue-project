@@ -40,7 +40,9 @@ module.exports = (wallaby) =>
 			const jestConfig = require('./jest.config');
 
 			jestConfig.transform = {
-				'^.+(quasar[^$]+.vue)': 'vue-jest'
+				'^.+(quasar[^$]+.vue)': 'vue-jest',
+				'^.+(quasar[^$]+.js)': 'babel-jest',
+				'.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
 			};
 
 			wallaby.testFramework.configure(jestConfig);
